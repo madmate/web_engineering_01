@@ -54,7 +54,7 @@
       }
 
       function tableMaker(name, topic, grade) {
-          var tr = document.createElement('tr');
+        var tr = document.createElement('tr');
         var td = document.createElement('td');
         td.textContent = name;
         table.appendChild(td);
@@ -75,8 +75,8 @@
 
       function deleteGrades() {
         localStorage.clear();
-        while (ul.firstChild) {
-          ul.removeChild(ul.firstChild);
+        while (table.firstChild) {
+          table.removeChild(table.firstChild);
         }
       }
 
