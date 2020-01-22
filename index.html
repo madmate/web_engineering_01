@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <title>Grade Storage</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/primitive-ui/dist/css/main.css" />
+  </head>
+
+  <body>
+    <div class="flexbox">
+      <h1>Grades</h1>
+
+      <form>
+        <input id="name" type="text" placeholder="Max Mustermann" required/>
+        <input id="topic" type="text" placeholder="Example Topic" required/>
+        <input id="grade" type="number" placeholder="Number" required/>
+        <input id="save" type="button" onclick="saveGrades()" value="Save"/>
+      </form>
+      
+      <h2>Items</h2>
+      <ul></ul>
+      <button id="delete" onclick="deleteGrades()">Delete Grades</button>
+    </div>
+  
+    <script src="js/script.js"></script>
+  </body>
+</html>
