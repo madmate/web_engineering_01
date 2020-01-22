@@ -2,15 +2,35 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Grade Storage</title>
-
+    
     <link rel="stylesheet" href="https://unpkg.com/primitive-ui/dist/css/main.css" />
+    <style>
+      h1 {
+        text-align: center;
+      }
+      h2 {
+        text-align: center;
+      }
+      .container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-items: stretch;
+        align-content: stretch;
+      }
+      input[type='button'] {
+        width: 100%;
+      }
+    </style>
   </head>
 
   <body>
-    <div class="flexbox">
-      <h1>Grade Storage</h1>  
+    <div class="container">
+      <h1>Grade Storage</h1> 
       <h2>input grades</h2>
 
       <form>
