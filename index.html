@@ -10,7 +10,8 @@
 
   <body>
     <div class="flexbox">
-      <h1>Grades</h1>
+      <h1>Grade Storage</h1>  
+      <h2>input grades</h1>Grade </h1>>
 
       <form>
         <input id="name" type="text" placeholder="Max Mustermann" required/>
@@ -19,8 +20,15 @@
         <input id="save" type="button" onclick="saveGrades()" value="Save"/>
       </form>
       
-      <h2>Items</h2>
+      <h2>your grades</h2>
       <ul></ul>
+      <table>
+          <tr>
+              <th>Name</th>
+              <th>Topic</th>
+              <th>Grade</th>
+          </tr>
+      </table>
       <button id="delete" onclick="deleteGrades()">Delete Grades</button>
     </div>
   
